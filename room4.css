@@ -3,43 +3,48 @@ body {
 	width: 100vw;
 	display:flex;
 	background-color:purple;
+	margin: 0px;
 }
 
-.square-div {
+
+.left-div {
 	display:flex;
 	height: 100%;
-	width: 50%;
+	width: 25%;
 }
-
+.right-div {
+	display:flex;
+	height: 100%;
+	width: 25%;
+}
 
 .red {
 	background-color: #FF0000;
 }
 
-.round-div{
-	display:flex;
-	height:50%;
-	width:100%;
-}
-.blue{
-	background-color:blue;
-	
-}
-.pink{
-	background-color:pink;
-	
-}
-.small-div{
+.mid{
 	display:block;
 	height:100%;
-	width:calc(100%/3);
+	width:50%;
 }
 .orange{
 	background-color:orange;
+	
 }
-.pink{
-	background-color:pink;
+.row{
+	display:flex;
+	height:calc(100%/3);
+	width:100%;
+}
+
+.box{
+	display:flex;
+	height:100%;
+	width:calc(100%/3);
 }
 .green{
 	background-color:green;
+}
+.yellow{
+	background-color:yellow;
 }
